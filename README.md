@@ -60,7 +60,7 @@ enableDebugBones must be true while creating a new instance in order for renderD
 
 ### Creating an instance :
 * #include "spriterengine/spriterengine.h"
-* ScmlModel scmlModel(fileName, new customFileFactory, new customObjectFactory/*optional*/);
+* SpriterModel scmlModel(fileName, new customFileFactory, new customObjectFactory/*optional*/);
 
 * EntityInstance *entityInstance = scmlModel.getNewEntityInstance(entityName or entityIndex);
 
