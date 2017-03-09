@@ -62,3 +62,8 @@ ipch/
 
 # Log Files
 *.tlog
+
+# Vim stuff
+*~
+.*swp
+
